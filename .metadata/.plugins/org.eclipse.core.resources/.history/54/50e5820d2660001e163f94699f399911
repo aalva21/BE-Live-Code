@@ -1,0 +1,30 @@
+package com.promineotech;
+import java.util.*;
+import java.io.*;
+
+public class Application {
+
+	//public static void main(String[] args) {
+		//System.out.println("My first Java Program!"); // Will print out message 
+		
+	// ---------------------------------------------------------------------------------------------------------------------- \\
+
+		static void charArray(String userWord) {
+	    /***** DO NOT CHANGE THE CODE ABOVE THIS LINE *****/
+
+	        // WRITE YOUR CODE HERE FOR
+	        char newArr[] = userWord.toCharArray();
+	        for (int i = 0; i < userWord.length(); i++) {
+	        	i += userWord.length();
+	        	System.out.println(newArr[i - 1]);
+	        }
+	        	
+	    /***** DO NOT CHANGE THE CODE BELOW THIS LINE *****/ 	
+		}
+		public static void main(String[] args) {
+			Scanner in = new Scanner(System.in);
+			String word;
+			word = in.nextLine();
+			charArray(word);
+		}
+	}

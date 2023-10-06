@@ -1,0 +1,10 @@
+package promineotech;
+
+public class WeekThree { // beginning of class scope
+	
+	public static void main(String[] args) {
+		
+		
+	} // end of main method scope
+
+} // end of class scope

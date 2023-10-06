@@ -1,0 +1,26 @@
+package promineotech;
+
+public class WeekThree { // beginning of class scope
+	
+	public static void main(String[] args) {
+		
+		// Arrays are immutable 
+		// Create an Array of fruit String
+		String[] fruit = new String[5];
+		
+		// Assign the first fruit in index 0
+		fruit[0] = "Apple";
+		
+		// Second index = [1]
+		fruit[1] = "Bananas";
+		fruit[2] = "Pear";
+		fruit[3] = "Kiwi";
+		fruit[4] = "Pineapple";
+		
+		// Print out fruit array
+		System.out.println(fruit);
+		
+		
+	} // End of main method scope
+
+} // End of class scope

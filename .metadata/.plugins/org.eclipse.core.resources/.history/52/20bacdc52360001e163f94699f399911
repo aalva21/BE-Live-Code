@@ -1,0 +1,31 @@
+package com.promineotech;
+import java.util.*;
+import java.io.*;
+
+public class Application {
+
+	//public static void main(String[] args) {
+		//System.out.println("My first Java Program!"); // Will print out message 
+		
+	// ---------------------------------------------------------------------------------------------------------------------- \\
+	
+
+	static void changeTwo(int a, int b, int[] arr) {
+/****** DO NOT CHANGE THE CODE ABOVE THIS LINE ******/
+
+        // WRITE YOUR CODE HERE
+        
+         
+        
+/****** DO NOT CHANGE THE CODE BELOW THIS LINE ******/ 	
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int a,b;
+		a = in.nextInt();
+		b = in.nextInt();
+		int[] arr = { 3, 7, 0, 4, -6, 10, 55 };
+		changeTwo(a, b, arr);
+	}
+}

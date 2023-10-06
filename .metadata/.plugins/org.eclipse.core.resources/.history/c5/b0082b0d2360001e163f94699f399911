@@ -1,0 +1,17 @@
+package com.promineotech;
+import java.util.*;
+import java.io.*;
+
+public class Application {
+
+	//public static void main(String[] args) {
+		//System.out.println("My first Java Program!"); // Will print out message 
+		
+	// ---------------------------------------------------------------------------------------------------------------------- \\
+	
+	  public static void main(String[] args){
+	        String[] firstNames = {"Mike", "Joe", "Brian", "Nick", "Carl"};
+	        String [] lastNames = {"Jones", "Thompson", "Walton", "Bird", "Jordan"};
+	        System.out.println(firstNames[1] + " " + lastNames[3]);
+	    }
+}
