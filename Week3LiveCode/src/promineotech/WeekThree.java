@@ -80,6 +80,19 @@ public class WeekThree { // beginning of class scope
 			System.out.println("\n" + array[i]);
 			System.out.println(array[i].charAt(i));
 		}
+		
+		String string = "Alex";
+		System.out.println(string.length());
+	}
+	
+	public static int power(int base, int exponent) {
+		int result = 1;
+		
+		for(int index = 1; index <= exponent; index++) {
+			result = result * base;
+		}
+		return result;
+		
 	}
 	
 } // End of class scope
